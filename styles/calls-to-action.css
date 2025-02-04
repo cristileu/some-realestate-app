@@ -1,0 +1,36 @@
+.calls-to-action {
+}
+
+.calls-to-action h2 {
+  text-align: center;
+  padding: 40px 0 32px 0;
+}
+
+.call-to-actions-list {
+  /* border: solid 1px red; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.call-to-actions-list .call-to-action {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.call-to-actions-list .call-to-action .search-home {
+  width: 60%;
+  margin: 16px auto 0 auto;
+}
+
+@media screen and (min-width: 600px) {
+  .call-to-actions-list .call-to-action {
+    width: calc(50% - 12px);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .call-to-actions-list .call-to-action {
+    width: calc(33% - 12px);
+  }
+}

@@ -1,0 +1,28 @@
+.property-insights {
+}
+
+.property-insights-wrapper {
+  background-image: linear-gradient(
+      60deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(17, 17, 43, 0.8) 35%,
+      rgba(0, 212, 255, 1) 100%
+    ),
+    url("../images/skyline.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 40px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: white;
+}
+
+.property-insights-wrapper h1 {
+  margin-bottom: 12px;
+}
+
+.property-insights-wrapper p {
+  margin-bottom: 32px;
+}

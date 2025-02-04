@@ -1,0 +1,53 @@
+/* color primary  blue*/
+/* #5C58FF */
+
+/* grey */
+/* #c9c9c9 */
+
+/* light grey */
+/* #EBEBEB */
+
+/* primary red */
+/* #FF385C */
+
+/* dark grey */
+/* #222222 */
+
+/* footer */
+/* #222 */
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: white;
+  box-sizing: border-box;
+
+  font-family: "Outfit", sans-serif;
+
+  position: relative;
+}
+
+.block-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* content */
+
+.content {
+  /* border: solid 2px orange; */
+}
+
+/* footer */
+
+.footer {
+  /* border: solid 2px red; */
+}
+
+.margin-t-40 {
+  margin: 40px 0;
+}

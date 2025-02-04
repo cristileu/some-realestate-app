@@ -1,0 +1,52 @@
+.value-finder-wrapper {
+  /* border: solid 1px red; */
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.value-finder-wrapper .value-finder-image {
+  background-image: url("../images/stonks.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100%;
+  order: 1;
+  border-radius: 10px;
+}
+
+.value-finder-wrapper .value-finder-content {
+  order: 2;
+  /* padding-right: 10px; */
+}
+
+.value-finder-wrapper h2 {
+  margin-bottom: 12px;
+  margin-top: 24px;
+}
+
+.value-finder-wrapper p {
+  margin-bottom: 32px;
+}
+
+.value-finder-image {
+  width: 100%;
+  height: 200px;
+}
+
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (min-width: 1000px) {
+  .value-finder-wrapper .value-finder-image {
+    order: 2;
+    width: 40%;
+  }
+
+  .value-finder-wrapper .value-finder-content {
+    order: 1;
+    width: 60%;
+  }
+}

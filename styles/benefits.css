@@ -1,0 +1,40 @@
+.benefits {
+  background-color: #ebebeb;
+}
+.benefits h2 {
+  text-align: center;
+  padding: 40px 0 32px 0;
+}
+
+.bebefits-wrapper {
+  border: solid 1px red;
+}
+
+.benefit-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.benefit-list .benefit {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 600px) {
+  .benefit-list .benefit {
+    width: calc(50% - 12px);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .benefit-list .benefit {
+    width: calc(33% - 12px);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .benefit-list .benefit {
+    width: calc(25% - 12px);
+  }
+}

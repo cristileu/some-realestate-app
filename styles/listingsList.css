@@ -1,0 +1,103 @@
+.listings-list {
+  /* border: solid blue 2px; */
+}
+
+.listings-list-wrapper {
+  /* border: solid red 2px; */
+  /* width: 100%;
+  margin: 0 auto; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.listing {
+  /* border: solid blue 2px; */
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  cursor: pointer;
+
+  width: 100%;
+}
+
+.listing-header {
+  height: 200px;
+
+  background-image: url("../images/apartmentInterior.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+
+.listing-header .label {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  background-color: #222222;
+  color: white;
+  padding: 4px 8px;
+
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.listing-details {
+  padding: 20px 24px;
+
+  border: solid 1px #c9c9c9;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.listing-specifics {
+  /* border: solid 1px green; */
+  display: flex;
+}
+
+.listing-specific {
+  margin-right: 16px;
+  display: flex;
+}
+
+.listing-specific img {
+  margin-right: 4px;
+  height: 20px;
+  width: 20px;
+}
+
+.listings-list .get-more-listings {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+@media screen and (min-width: 340px) {
+}
+
+@media screen and (min-width: 500px) {
+  /* .listing {
+    width: calc(50% - 12px);
+  } */
+}
+
+@media screen and (min-width: 600px) {
+  .listing {
+    width: calc(50% - 12px);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .listing {
+    width: calc(33% - 12px);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .listing {
+    width: calc(25% - 12px);
+  }
+}

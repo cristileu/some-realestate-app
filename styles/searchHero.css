@@ -1,0 +1,39 @@
+.search-hero {
+}
+
+.search-hero-wrapper {
+  /* border: solid 3px purple; */
+  height: 300px;
+  border-radius: 20px;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/skyline2.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.search-hero-content {
+  /* border: solid red 2px; */
+  padding: 8px 16px;
+}
+
+.search-hero-content h2 {
+  color: white;
+}
+
+@media screen and (min-width: 340px) {
+}
+
+@media screen and (min-width: 600px) {
+  .search-hero-wrapper {
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+}

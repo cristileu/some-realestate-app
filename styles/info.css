@@ -1,0 +1,64 @@
+.info-sections {
+  /* border: solid red 2px; */
+}
+
+.info-sections .info-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.info-sections .info-row .wide {
+  width: 100%;
+}
+
+.info-sections .info-row .narrow {
+  width: 100%;
+}
+
+.info-sections .segment {
+  border-radius: 20px;
+  /* border: solid green 2px; */
+  color: white;
+
+  margin-bottom: 24px;
+  box-sizing: border-box;
+  padding: 24px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+.info-sections .segment.pic-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/consultant.jpg");
+}
+
+.info-sections .segment.pic-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/house.jpg");
+}
+
+.info-sections .segment .find-out-more {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 340px) {
+}
+
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (min-width: 1000px) {
+  .info-sections .info-row .wide {
+    width: calc(60% - 12px);
+  }
+
+  .info-sections .info-row .narrow {
+    width: calc(40% - 12px);
+  }
+}

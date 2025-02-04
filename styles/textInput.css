@@ -1,0 +1,40 @@
+.input-wrapper {
+}
+
+.text-input {
+  outline: none;
+  padding: 8px 12px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: solid 1px #c9c9c9;
+}
+
+.input-w-image {
+  position: relative;
+}
+
+.input-w-image .input-icon {
+  position: absolute;
+  height: 26px;
+  width: 26px;
+  background-color: #ff385c;
+  border: solid 1px red;
+  border-radius: 8px;
+
+  right: 2px;
+  top: 3px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-w-image .input-icon img {
+  height: 80%;
+  width: 80%;
+}
+
+.input-w-image .text-input {
+  width: 100%;
+}

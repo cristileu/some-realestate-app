@@ -1,0 +1,89 @@
+.modal {
+  position: absolute;
+  top: 0;
+  box-sizing: border-box;
+
+  /* border: solid red 2px; */
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.modal-shadow {
+  height: 100%;
+  width: 100%;
+  background-color: #c9c9c9;
+  opacity: 0.7;
+}
+
+.modal-content {
+  background-color: white;
+  position: absolute;
+  padding: 24px;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.modal-content .close-modal {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-content .close-modal img {
+  cursor: pointer;
+  height: 32px;
+  width: 32px;
+}
+
+.modal-content .form-wrapper {
+  width: 100%;
+}
+
+.modal-content .form-wrapper .input-wrapper {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.modal-content .form-wrapper input {
+  width: 100%;
+}
+
+.modal-content .form-wrapper .submit {
+  width: 100%;
+}
+
+.modal-content .login-alternatives {
+}
+
+.modal-content .login-form {
+  margin-bottom: 32px;
+}
+
+.modal-content .sign-up {
+  margin: 16px 0;
+}
+
+.modal-content .terms-of-use {
+  margin: 16px 0;
+}
+
+@media screen and (min-width: 600px) {
+  .modal-content {
+    top: calc(25% - 24px);
+    left: calc(25% - 24px);
+    right: 0;
+    bottom: initial;
+
+    width: 50%;
+    height: auto;
+
+    border-radius: 20px;
+  }
+}
