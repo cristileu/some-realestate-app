@@ -10,14 +10,15 @@
   height: 40px;
 }
 
+.general:hover {
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
 .outlined {
-  border: solid 1px #c9c9c9;
+  border: solid 1px var(--grey);
 }
 
 .filled {
-  background-color: #5c58ff;
+  background-color: var(--primary-blue);
   color: white;
-}
-
-.text {
 }

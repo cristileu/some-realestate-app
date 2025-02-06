@@ -1,5 +1,3 @@
-console.log("Running faq-accordion");
-
 const faqs = document.querySelectorAll(".faq");
 
 faqs.forEach((faq) => {

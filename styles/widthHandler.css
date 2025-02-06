@@ -1,5 +1,4 @@
 .width-wrapper {
-  /* border: solid red 2px; */
   width: calc(100% - 32px);
   margin: 10px 16px;
 }

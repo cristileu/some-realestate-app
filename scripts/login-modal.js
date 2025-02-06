@@ -15,9 +15,6 @@ const closeModal = () => {
 };
 
 loginBtn.addEventListener("click", () => {
-  console.log("clicked login");
-
-  console.log("modal", modal);
   openModal();
 });
 

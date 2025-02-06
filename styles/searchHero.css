@@ -1,8 +1,4 @@
-.search-hero {
-}
-
 .search-hero-wrapper {
-  /* border: solid 3px purple; */
   height: 300px;
   border-radius: 20px;
 
@@ -15,25 +11,26 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  padding: 24px;
+  box-sizing: border-box;
 }
 
 .search-hero-content {
-  /* border: solid red 2px; */
   padding: 8px 16px;
 }
 
 .search-hero-content h2 {
   color: white;
+  margin-bottom: 40px;
 }
 
-@media screen and (min-width: 340px) {
+.search-hero-content .hero-dot {
+  color: var(--primary-red);
+  font-size: 40px;
 }
 
 @media screen and (min-width: 600px) {
   .search-hero-wrapper {
     align-items: center;
   }
-}
-
-@media screen and (min-width: 1000px) {
 }

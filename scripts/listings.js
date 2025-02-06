@@ -1,9 +1,10 @@
+// alright, let's assume the first listings are server-side rendered,
+// the next ones will be client-side rendered upon requestuing more
+
 const getMoreListingsBtn = document.querySelector(".get-more-listings");
 const listingList = document.querySelector(".listings-list-wrapper");
 
 getMoreListingsBtn.addEventListener("click", () => {
-  console.log("reuested mote listinfgs");
-
   createListings();
 });
 
@@ -16,7 +17,7 @@ const listingsJson = [
     beds: "5",
     baths: "2",
     size: "2.400 sqft",
-    imgSrc: "/listingsApp/images/apartmentInterior2.jpeg",
+    imgSrc: "/images/apartmentInterior2.jpeg",
   },
 
   {
@@ -27,7 +28,7 @@ const listingsJson = [
     beds: "5",
     baths: "2",
     size: "2.400 sqft",
-    imgSrc: "/listingsApp/images/apartmentInterior3.jpg",
+    imgSrc: "/images/apartmentInterior3.jpg",
   },
 
   {
@@ -38,7 +39,7 @@ const listingsJson = [
     beds: "5",
     baths: "2",
     size: "2.400 sqft",
-    imgSrc: "/listingsApp/images/apartmentInterior4.jpg",
+    imgSrc: "/images/apartmentInterior4.jpg",
   },
 
   {
@@ -49,7 +50,7 @@ const listingsJson = [
     beds: "5",
     baths: "2",
     size: "2.400 sqft",
-    imgSrc: "/listingsApp/images/apartmentInterior5.jpg",
+    imgSrc: "/images/apartmentInterior5.jpg",
   },
 ];
 
@@ -154,8 +155,6 @@ const createListing = (data) => {
 };
 
 const createListings = () => {
-  const listings = [];
-
   const listingElements = listingsJson.map((jsonListing) => {
     return createListing(jsonListing);
   });

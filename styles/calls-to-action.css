@@ -1,13 +1,9 @@
-.calls-to-action {
-}
-
 .calls-to-action h2 {
   text-align: center;
   padding: 40px 0 32px 0;
 }
 
 .call-to-actions-list {
-  /* border: solid 1px red; */
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

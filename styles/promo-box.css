@@ -1,5 +1,4 @@
 .promo-box {
-  /* border: solid 2px red; */
   border-radius: 16px;
   padding: 16px;
   background-color: white;
@@ -8,7 +7,7 @@
 }
 
 .promo-box.call-to-action {
-  border: solid 1px #c9c9c9;
+  border: solid 1px var(--grey);
 }
 
 .promo-box h3 {
@@ -21,10 +20,14 @@
   width: 64px;
   margin: 0 auto;
   border-radius: 50%;
-  background-color: #e8e8ff;
+  background-color: var(--light-purple);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.promo-box.call-to-action .icon-holder {
+  background-color: var(--primary-red-light);
 }
 
 .promo-box p {

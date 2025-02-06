@@ -1,10 +1,3 @@
-/* .display-medium {
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 56px;
-} */
-
 p,
 h1,
 h2,
@@ -42,8 +35,7 @@ h6 {
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
-  color: #5e5e5e;
-
+  color: var(--helper-grey);
   margin: 0;
 }
 
@@ -83,5 +75,12 @@ h6 {
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
+  line-height: 36px;
+}
+
+.hero-special {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
   line-height: 36px;
 }

@@ -1,10 +1,15 @@
-.listings-list-wrapper {
+.new-projects .project-title {
+  margin-bottom: 24px;
+}
+
+.new-projects-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.listing {
+/* try using the listing styling here, looks pretty much the same */
+.new-projects-wrapper .project {
   border-radius: 20px;
   overflow: hidden;
   margin-bottom: 24px;
@@ -13,14 +18,14 @@
   width: 100%;
 }
 
-.listing:hover {
+.new-projects-wrapper .project:hover {
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.listing-header {
+.new-projects-wrapper .project-header {
   height: 200px;
 
-  background-image: url("../images/apartmentInterior.jpg");
+  background-image: url("../images/officeInterior.avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,7 +33,7 @@
   position: relative;
 }
 
-.listing-header .label {
+.new-projects-wrapper .project-header .label {
   position: absolute;
   top: 20px;
   left: 0;
@@ -40,7 +45,7 @@
   border-bottom-right-radius: 6px;
 }
 
-.listing-details {
+.new-projects-wrapper .project-details {
   padding: 20px 24px;
 
   border: solid 1px var(--grey);
@@ -48,42 +53,20 @@
   border-bottom-left-radius: 20px;
 }
 
-.listing-specifics {
-  display: flex;
-}
-
-.listing-specific {
-  margin-right: 16px;
-  display: flex;
-}
-
-.listing-specific img {
-  margin-right: 4px;
-  height: 20px;
-  width: 20px;
-}
-
-.listings-list .get-more-listings {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  width: fit-content;
-}
-
 @media screen and (min-width: 600px) {
-  .listing {
+  .new-projects-wrapper .project {
     width: calc(50% - 12px);
   }
 }
 
 @media screen and (min-width: 1000px) {
-  .listing {
+  .new-projects-wrapper .project {
     width: calc(33% - 12px);
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .listing {
+  .new-projects-wrapper .project {
     width: calc(25% - 12px);
   }
 }

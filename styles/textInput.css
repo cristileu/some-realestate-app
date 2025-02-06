@@ -1,12 +1,10 @@
-.input-wrapper {
-}
-
 .text-input {
   outline: none;
   padding: 8px 12px;
   box-sizing: border-box;
   border-radius: 8px;
-  border: solid 1px #c9c9c9;
+  border: solid 1px var(--grey);
+  height: 100%;
 }
 
 .input-w-image {
@@ -15,14 +13,13 @@
 
 .input-w-image .input-icon {
   position: absolute;
-  height: 26px;
-  width: 26px;
-  background-color: #ff385c;
-  border: solid 1px red;
+  height: 36px;
+  width: 36px;
+  background-color: var(--primary-red);
   border-radius: 8px;
 
-  right: 2px;
-  top: 3px;
+  right: 5px;
+  top: 5px;
   cursor: pointer;
 
   display: flex;
@@ -30,11 +27,16 @@
   justify-content: center;
 }
 
-.input-w-image .input-icon img {
-  height: 80%;
-  width: 80%;
+.hero-search {
+  height: 45px;
+}
+
+.input-w-image .input-icon svg {
+  height: 60%;
+  width: 60%;
 }
 
 .input-w-image .text-input {
   width: 100%;
+  padding-right: 50px;
 }

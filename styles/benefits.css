@@ -1,13 +1,9 @@
 .benefits {
-  background-color: #ebebeb;
+  background-color: var(--light-grey);
 }
 .benefits h2 {
   text-align: center;
   padding: 40px 0 32px 0;
-}
-
-.bebefits-wrapper {
-  border: solid 1px red;
 }
 
 .benefit-list {

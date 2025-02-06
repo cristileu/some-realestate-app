@@ -1,17 +1,9 @@
-.faqs {
-}
-
-.faqs-wrapper {
-  /* border: solid 1px red; */
-}
-
 .faqs-wrapper h2 {
   text-align: center;
 }
 
 .faq {
-  /* border: solid 1px green; */
-  border-bottom: solid 1px #c9c9c9;
+  border-bottom: solid 1px var(--grey);
   margin-top: 51px;
 }
 
